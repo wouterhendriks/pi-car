@@ -1,0 +1,33 @@
+greetings:
+  # Default greeting for people without custom messages
+  default: "Hi {name}"
+
+  # Custom greetings for specific people
+  # The key should match the filename (without extension) in the faces folder
+  custom:
+    john: "Welcome back, {name}! How was your day?"
+    sarah: "Good to see you again, {name}!"
+    alex: "Hey {name}, looking good today!"
+    wouter: "Hi {name}, how are you today?"
+    ingrid: "Hi {name}, are you enjoying Ted Lasso?"
+
+# Custom messages when a person is recognized in the logs
+recognition_messages:
+  # Default message for people without custom messages
+  default: "Recognized: {name}"
+
+  # Custom messages for specific people
+  custom:
+    john: "John has arrived! He usually works in the office."
+    sarah: "Sarah is here - she's from the marketing team."
+    alex: "Alex detected - he's an authorized developer."
+    wouter: "Wouter detected - a senior dev."
+    ingrid: "Ingie"
+
+# You can add more configuration sections here as needed
+# For example:
+#
+# notifications:
+#   enabled: true
+#   save_unknown_faces: true
+#   save_unknown_dogs: true
